@@ -1,0 +1,24 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main(){
+int number,i;
+cin>>number;
+int shi = (number/10)%10;
+int ge = number%10;
+int bai = number/100;
+for (i=0;i<bai;i++)
+{
+cout<<"B";
+}
+for (i=0;i<=ge;i++)
+{
+cout<<"i";
+}
+for(i=0;i<=shi;i++)
+{
+cout<<"S";
+}
+return 0;
+}
+
