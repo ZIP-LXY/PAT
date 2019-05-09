@@ -1,5 +1,5 @@
 #include <iostream>
-#include <cstdlib>
+
 using namespace std;
 int main(){
 int number,i;
@@ -15,10 +15,10 @@ for (i=0;i<=ge;i++)
 {
 cout<<"i";
 }
-for(i=0;i<=shi;i++)
-{
-cout<<"S";
-}
+	for(i=0;i<=shi;i++)
+	{
+	cout<<"S";
+	}
 return 0;
 }
 
